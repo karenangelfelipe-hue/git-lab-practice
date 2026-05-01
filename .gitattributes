@@ -1,2 +1,12 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+git init
+
+git remote add origin https://github.com/karenangelfelipe/git-lab-practice.git
+
+git and README.md
+git commit -m "Initil commit"
+git branch -M main 
+git push -u origin main
+git checkout -b feature-bio
+git add about . txt
+git commit -m "Add professional bio"
+git push origin feature bio
